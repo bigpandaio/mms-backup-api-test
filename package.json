@@ -1,0 +1,14 @@
+{
+  "name": "mms-backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "2.55.0"
+  }
+}
