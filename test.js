@@ -2,10 +2,10 @@
 var request = require('request');
 var util = require('util')
 
-var groupId = null // TODO: fill in
-var clusterId = null // TODO: fill in
-var username = null // TODO: fill in
-var apiToken = null //TODO: fill in
+var groupId = "" // TODO: fill in
+var clusterId = "" // TODO: fill in
+var username = "" // TODO: fill in
+var apiToken = "" //TODO: fill in
 
 var organizations = ["bigpanda"]
 
