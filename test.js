@@ -7,9 +7,9 @@ var clusterId = "" // TODO: fill in
 var username = "" // TODO: fill in
 var apiToken = "" //TODO: fill in
 
-var organizations = ["bigpanda"]
+var collections = ["bigpanda"];
 
-var excludedNamespaces = organizations.map(function(org) { return "bigpanda-data-api." + org + "_events"});
+var excludedNamespaces = collections.map(function(collection) { return "database." +  collection });
 console.log("Excluded Namespaces: " + excludedNamespaces);
 
 
